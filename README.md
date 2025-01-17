@@ -74,10 +74,10 @@ Once you have a Mojo project set up locally,
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [language-shield]: https://img.shields.io/badge/language-mojo-orange
-[license-shield]: https://img.shields.io/github/license/saviorand/pyre?logo=github
-[license-url]: https://github.com/saviorand/pyre/blob/main/LICENSE
+[license-shield]: https://img.shields.io/github/license/Lightbug-HQ/pyre?logo=github
+[license-url]: https://github.com/Lightbug-HQ/pyre/blob/main/LICENSE
 [contributors-shield]: https://img.shields.io/badge/contributors-welcome!-blue
-[contributors-url]: https://github.com/saviorand/pyre#contributing
+[contributors-url]: https://github.com/Lightbug-HQ/pyre#contributing
 [discord-shield]: https://img.shields.io/discord/1192127090271719495?style=flat&logo=discord&logoColor=white
 [discord-url]: https://discord.gg/VFWETkTgrr
 
@@ -85,8 +85,8 @@ Once you have a Mojo project set up locally,
 ## Contributors
 Want your name to show up here? See [CONTRIBUTING.md](./CONTRIBUTING.md)!
 
-<a href="https://github.com/saviorand/pyre/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=saviorand/pyre" />
+<a href="https://github.com/Lightbug-HQ/pyre/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Lightbug-HQ/pyre" />
 </a>
 
 <sub>Made with [contrib.rocks](https://contrib.rocks).</sub>
