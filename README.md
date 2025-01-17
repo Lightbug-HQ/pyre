@@ -8,7 +8,7 @@
   <h3 align="center">Pyre</h3>
 
   <p align="center">
-    🗼 A [Tower](https://github.com/tower-rs/tower/tree/master) on fire! 🔥
+    🗼 A <a href="https://github.com/tower-rs/tower/tree/master">Tower</a> on fire! 🔥
     <br/>
 
    ![Written in Mojo][language-shield]
