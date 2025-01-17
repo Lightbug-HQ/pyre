@@ -1,12 +1,16 @@
 [project]
 authors = ["Val <saviorand@gmail.com>"]
 channels = ["conda-forge", "https://conda.modular.com/max"]
-description = "Add a short description here"
+description = " Networking abstractions for Mojo"
 name = "pyre"
-platforms = ["osx-arm64"]
+platforms = ["osx-arm64", "linux-64]
 version = "0.1.0"
 
 [tasks]
+build = { cmd = "rattler-build build --recipe recipes -c https://conda.modular.com/max -c conda-forge --skip-existing=all", env = {MODULAR_MOJO_IMPORT_PATH = "$CONDA_PREFIX/lib/mojo"} }
+publish = { cmd = "bash scripts/publish.sh", env = { PREFIX_API_KEY = "$PREFIX_API_KEY" } }
+test = { cmd = "magic run mojo test -I . tests/pyre" }
+format = { cmd = "magic run mojo format -l 120 pyre" }
 
 [dependencies]
 max = ">=24.6.0,<25"
